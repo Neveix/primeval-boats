@@ -1,0 +1,15 @@
+{
+  "root": {
+    "offset": [
+      -0.375,
+      -0.15,
+      0
+    ],
+    "nodes": [
+      {
+        "name": "plank_boat",
+        "model": "plank_boat"
+      }
+    ]
+  }
+}

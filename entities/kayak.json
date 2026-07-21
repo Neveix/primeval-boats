@@ -1,0 +1,14 @@
+{
+  "components": [
+    "primeval_boats:boat"
+  ],
+  "body-type": "dynamic",
+  "hitbox": [
+    1,
+    0.375,
+    1
+  ],
+  "solid": true,
+  "mass": 15,
+  "elasticity": 0.3
+}

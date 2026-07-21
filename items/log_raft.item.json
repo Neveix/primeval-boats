@@ -1,0 +1,7 @@
+{
+  "caption": "Log raft",
+  "icon-type": "sprite",
+  "icon": "items:log_raft",
+  "script": "log_raft.item",
+  "stack-size": 1
+}

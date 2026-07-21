@@ -1,0 +1,7 @@
+{
+  "caption": "Kayak",
+  "icon-type": "sprite",
+  "icon": "items:kayak",
+  "script": "kayak.item",
+  "stack-size": 1
+}

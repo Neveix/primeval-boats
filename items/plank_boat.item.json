@@ -1,0 +1,7 @@
+{
+  "caption": "Plank Boat",
+  "icon-type": "sprite",
+  "icon": "items:plank_boat",
+  "script": "plank_boat.item",
+  "stack-size": 1
+}

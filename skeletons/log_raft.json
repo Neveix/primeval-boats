@@ -1,0 +1,15 @@
+{
+  "root": {
+    "offset": [
+      0,
+      -0.3124,
+      0.5625
+    ],
+    "nodes": [
+      {
+        "name": "log_raft",
+        "model": "log_raft"
+      }
+    ]
+  }
+}
