@@ -193,6 +193,9 @@ local function player_unmount()
 end
 
 local function player_mount(pid)
+	if SAVED_DATA.rider_id == pid then
+		return
+	end
 	boat_core.mount.unmount(pid)
 	boat_core.mount.register_mount(pid, player_unmount)
 	SAVED_DATA.player_had_noclip_before_mount = player.is_noclip(pid)
