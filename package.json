@@ -5,6 +5,6 @@
   "creator": "Neveix",
   "description": "",
   "dependencies": [
-    "rideable_api"
+    "vehicle_api"
   ]
 }
