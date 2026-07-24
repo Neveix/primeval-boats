@@ -2,16 +2,19 @@ local PACK_ID = "primeval_boats"
 local boat_core = require(PACK_ID .. ":boat_core")
 
 function math.sign(x)
-	if x >= 0 then
+	if x > 0 then
 		return 1
-	else
+	elseif x < 0 then
 		return -1
+	else
+		return 0
 	end
 end
 
 local water_id = block.index("base:water")
 
 -- TODO:
+-- delete PACK_ID usage
 -- fix player trembling on boats
 -- foam texture
 -- foam particles generation under boats
