@@ -15,7 +15,7 @@ end
 local water_id = block.index("base:water")
 
 -- TODO:
--- shift kayak downwards to prevent flying
+-- add component's ARGS usage
 -- delete PACK_ID usage
 -- fix player trembling on boats
 -- foam texture
@@ -166,9 +166,7 @@ function on_despawn()
 	local invid = SAVED_DATA.inventory_id
 	SAVED_DATA.inventory_id = nil
 	inventory.remove(invid)
-	if rideable_api.is_mounted(SAVED_DATA.rider_id) then
-		rideable_api.unmount(SAVED_DATA.rider_id)
-	end
+	rideable_api.unmount(SAVED_DATA.rider_id)
 end
 
 function on_attacked(_, pid)
