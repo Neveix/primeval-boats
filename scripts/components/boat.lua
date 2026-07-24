@@ -1,5 +1,6 @@
 local PACK_ID = "primeval_boats"
-local boat_core = require(PACK_ID .. ":boat_core")
+---@type rideable_api
+local rideable_api = require("rideable_api:mount")
 
 function math.sign(x)
 	if x > 0 then
@@ -14,6 +15,7 @@ end
 local water_id = block.index("base:water")
 
 -- TODO:
+-- shift kayak downwards to prevent flying
 -- delete PACK_ID usage
 -- fix player trembling on boats
 -- foam texture
@@ -56,7 +58,7 @@ local PARAMETERS = {
 		rotation_acceleration = 0.03,
 		max_rotation_speed = 1.0,
 		turn_velocity_dependency = 0.4,
-		bottom_y_shift = -0,
+		bottom_y_shift = -0.125,
 		roll_lift = 1 / 16,
 		max_roll = 5,
 	},
@@ -70,7 +72,7 @@ local ROTATION_DECELERATION = P.rotation_deceleration or 0.003
 local MAX_ROTATION_SPEED = P.max_rotation_speed or 1 -- degrees
 local MAX_GROUND_ROTATION_SPEED = P.max_ground_rotation_speed or 0.2 -- degrees
 local TURN_VELOCITY_DEPENDENCY = P.turn_velocity_dependency -- 0 means zero dependency on velocity to rotate.
-local ROLL_SPEED = P.roll_speed or 0.3
+local ROLL_SPEED = P.roll_speed or 0.1
 local MAX_ROLL = P.max_roll or 0
 local ROLL_LIFT = P.roll_lift or 0 -- in blocks
 local BOTTOM_Y_SHIFT = P.bottom_y_shift or 0
@@ -164,6 +166,9 @@ function on_despawn()
 	local invid = SAVED_DATA.inventory_id
 	SAVED_DATA.inventory_id = nil
 	inventory.remove(invid)
+	if rideable_api.is_mounted(SAVED_DATA.rider_id) then
+		rideable_api.unmount(SAVED_DATA.rider_id)
+	end
 end
 
 function on_attacked(_, pid)
@@ -186,10 +191,8 @@ function on_attacked(_, pid)
 end
 
 local function player_unmount()
-	boat_core.mount.unregister_mount(SAVED_DATA.rider_id)
 	local x, y, z = player.get_pos(SAVED_DATA.rider_id)
 	player.set_pos(SAVED_DATA.rider_id, x, y + 0.5, z)
-	body:set_vel(vec3.mul(body:get_vel(), 0.5))
 	player.set_noclip(SAVED_DATA.rider_id, SAVED_DATA.player_had_noclip_before_mount)
 	SAVED_DATA.player_had_noclip_before_mount = nil
 	SAVED_DATA.rider_id = nil
@@ -199,11 +202,19 @@ local function player_mount(pid)
 	if SAVED_DATA.rider_id == pid then
 		return
 	end
-	boat_core.mount.unmount(pid)
-	boat_core.mount.register_mount(pid, player_unmount)
+	rideable_api.unmount(pid)
+	rideable_api.mount(pid, entity:get_uid(), nil, player_unmount)
 	SAVED_DATA.player_had_noclip_before_mount = player.is_noclip(pid)
 	player.set_noclip(pid, true)
 	SAVED_DATA.rider_id = pid
+end
+
+do
+	local pid = SAVED_DATA.rider_id
+	if pid then
+		SAVED_DATA.rider_id = nil
+		player_mount(pid)
+	end
 end
 
 local function open_inventory()
@@ -411,7 +422,7 @@ local function spawn_fall_water_splashes()
 	end
 
 	local vel = body:get_vel()
-	if vel[2] < 0 and vel[2] > -3 then
+	if vel[2] < 0 and vel[2] > -4 then
 		return
 	end
 
@@ -421,7 +432,7 @@ local function spawn_fall_water_splashes()
 		texture = "blocks:" .. block.get_textures(water_id)[1],
 		spawn_interval = 0,
 		lifetime = 3,
-		acceleration = { 0, -5, 0 },
+		acceleration = { 0, -7, 0 },
 		explosion = { 3, 6, 3 },
 		size = { 0.15, 0.15, 0.15 },
 		spawn_spread = { 1, 0.2, 1 },
@@ -446,23 +457,16 @@ local function set_gravity_scale_abs(scale)
 end
 
 local function overlap_any_block(x, y, z, block_id)
-	x = x - 1
-	-- z = z - 1
-	size = 0
-	size_y = 0
-	for iz = 0, size do
-		for iy = 0, size do
-			for ix = 0, size do
-				-- block.set(x + ix, y + iy + 2, z + iz, block.index("base:leaves"))
-				if block.get(x + ix, y + iy, z + iz) == block_id then
-					return {
-						math.floor(x + ix),
-						math.floor(y + iy),
-						math.floor(z + iz),
-					}
-				end
-			end
-		end
+	x = math.round(x - 0.5)
+	y = math.floor(y)
+	z = math.round(z - 0.5)
+	-- block.set(x, y + 2, z, block.index("base:leaves"))
+	if block.get(x, y, z) == block_id then
+		return {
+			math.floor(x),
+			math.floor(y),
+			math.floor(z),
+		}
 	end
 	return nil
 end

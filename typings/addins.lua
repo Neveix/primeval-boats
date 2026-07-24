@@ -25,3 +25,6 @@ function vec2.rotate(v, angle, dst) end
 ---@overload fun(self: voxelcore.class.entity.rigidbody, value: number)
 ---@field set_vdamping fun(self: voxelcore.class.entity.rigidbody, value: bool|number)
 ---@field get_gravity_scale fun(self: voxelcore.class.entity.rigidbody): number Возвращает множитель гравитации
+
+---@class voxelcore.libentities Библиотека предназначена для работы с реестром сущностей.
+---@field def_index fun(name: string): int Возвращает индекс определения сущности по имени (числовой ID)

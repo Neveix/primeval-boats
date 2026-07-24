@@ -4,5 +4,7 @@
   "version": "0.1.0",
   "creator": "Neveix",
   "description": "",
-  "dependencies": []
+  "dependencies": [
+    "rideable_api"
+  ]
 }
