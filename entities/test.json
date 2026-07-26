@@ -1,0 +1,13 @@
+{
+  "components": [],
+  "body-type": "dynamic",
+  "hitbox": [
+    1.125,
+    0.375,
+    1.125
+  ],
+  "solid": true,
+  "mass": 30,
+  "elasticity": 0.3,
+  "skeleton-name": "primeval_boats:plank_boat"
+}
