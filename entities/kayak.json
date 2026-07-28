@@ -1,6 +1,6 @@
 {
   "components": [
-    "vehicle_api:boat"
+    "seat_commons:boat"
   ],
   "body-type": "dynamic",
   "hitbox": [

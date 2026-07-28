@@ -5,6 +5,6 @@
   "creator": "Neveix",
   "description": "",
   "dependencies": [
-    "vehicle_api"
+    "seat_commons"
   ]
 }

@@ -1,6 +1,6 @@
 local PACK_ID = "primeval_boats"
-local boat_utils = require("vehicle_api:item_utils/boat")
-local vehicle_utils = require("vehicle_api:item_utils/vehicle")
+local boat_utils = require("seat_commons:item_utils/boat")
+local vehicle_utils = require("seat_commons:item_utils/vehicle")
 
 local ENTITY_ID = PACK_ID .. ":kayak"
 
@@ -15,7 +15,7 @@ function on_use(pid)
 	boat_utils.try_delete_item(pid)
 	local rot = vehicle_utils.get_vehicle_rotation_mat4(pid)
 	entities.spawn(ENTITY_ID, pos, {
-		["vehicle_api__boat"] = {
+		["seat_commons__boat"] = {
 			rotation_mat4 = rot,
 		},
 	})

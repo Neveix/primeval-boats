@@ -1,14 +1,13 @@
 {
-  "entities": [
-    "plank_boat",
-    "log_raft",
-    "kayak",
-    "test"
-  ],
+  "blocks": [],
   "items": [
     "plank_boat.item",
     "log_raft.item",
     "kayak.item"
   ],
-  "blocks": []
+  "entities": [
+    "plank_boat",
+    "log_raft",
+    "kayak"
+  ]
 }
