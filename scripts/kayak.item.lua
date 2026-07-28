@@ -1,6 +1,6 @@
 local PACK_ID = "primeval_boats"
-local boat_utils = require("seat_commons:item_utils/boat")
-local vehicle_utils = require("seat_commons:item_utils/vehicle")
+local boat_utils = require("seat_commons:api/v1/item_utils/boat")
+local vehicle_utils = require("seat_commons:api/v1/item_utils/vehicle")
 
 local ENTITY_ID = PACK_ID .. ":kayak"
 
