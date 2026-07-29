@@ -1,0 +1,126 @@
+[
+  {
+    "components": [
+      {
+        "tag": "wood",
+        "count": 4
+      },
+      {
+        "id": "newgen:flax_fiber",
+        "count": 10
+      }
+    ],
+    "results": [
+      {
+        "id": "primeval_boats:log_raft.item",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "components": [
+      {
+        "id": "base:planks.item",
+        "count": 12
+      },
+      {
+        "id": "newgen:tin_bronze_nugget",
+        "count": 2
+      },
+      {
+        "id": "newgen:red_clay_chunk",
+        "count": 12
+      }
+    ],
+    "results": [
+      {
+        "id": "primeval_boats:plank_boat.item",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "components": [
+      {
+        "id": "newgen:birch_planks.item",
+        "count": 12
+      },
+      {
+        "id": "newgen:tin_bronze_nugget",
+        "count": 2
+      },
+      {
+        "id": "newgen:red_clay_chunk",
+        "count": 12
+      }
+    ],
+    "results": [
+      {
+        "id": "primeval_boats:plank_boat.item",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "components": [
+      {
+        "id": "newgen:spruce_planks.item",
+        "count": 12
+      },
+      {
+        "id": "newgen:tin_bronze_nugget",
+        "count": 2
+      },
+      {
+        "id": "newgen:red_clay_chunk",
+        "count": 12
+      }
+    ],
+    "results": [
+      {
+        "id": "primeval_boats:plank_boat.item",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "components": [
+      {
+        "id": "newgen:willow_planks.item",
+        "count": 12
+      },
+      {
+        "id": "newgen:tin_bronze_nugget",
+        "count": 2
+      },
+      {
+        "id": "newgen:red_clay_chunk",
+        "count": 12
+      }
+    ],
+    "results": [
+      {
+        "id": "primeval_boats:plank_boat.item",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "components": [
+      {
+        "id": "newgen:bone",
+        "count": 20
+      },
+      {
+        "id": "newgen:fur_cape",
+        "count": 4
+      }
+    ],
+    "results": [
+      {
+        "id": "primeval_boats:kayak.item",
+        "count": 1
+      }
+    ]
+  }
+]
