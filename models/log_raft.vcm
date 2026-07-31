@@ -1,0 +1,144 @@
+@box from (0.4375, -0.5, 0.15625) to (0.5, -0.1875, 0.21875) origin (0.5, -0.5, 0.1875) {
+    @part tags (south) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (west) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (east) texture "entities/log_raft" region (0.1875, 0.6875, 0.15625, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.1875, 0.84375, 0.15625, 0.8125)
+    @part tags (bottom) texture "entities/log_raft" region (0.1875, 0.78125, 0.15625, 0.8125)
+}
+@box from (0.4375, -0.5, -0.21875) to (0.5, -0.1875, -0.15625) origin (0.5, -0.5, -0.1875) {
+    @part tags (south) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (west) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (east) texture "entities/log_raft" region (0.1875, 0.6875, 0.15625, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.1875, 0.84375, 0.15625, 0.8125)
+    @part tags (bottom) texture "entities/log_raft" region (0.1875, 0.78125, 0.15625, 0.8125)
+}
+@box from (0.4375, -0.5, -0.59375) to (0.5, -0.1875, -0.53125) origin (0.5, -0.5, -0.5625) {
+    @part tags (south) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (west) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (east) texture "entities/log_raft" region (0.1875, 0.6875, 0.15625, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.1875, 0.84375, 0.15625, 0.8125)
+    @part tags (bottom) texture "entities/log_raft" region (0.1875, 0.78125, 0.15625, 0.8125)
+}
+@box from (0.4375, -0.5, -0.96875) to (0.5, -0.1875, -0.90625) origin (0.5, -0.5, -0.9375) {
+    @part tags (south) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (west) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (east) texture "entities/log_raft" region (0.1875, 0.6875, 0.15625, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.1875, 0.84375, 0.15625, 0.8125)
+    @part tags (bottom) texture "entities/log_raft" region (0.1875, 0.78125, 0.15625, 0.8125)
+}
+@box from (0.4375, -0.5, -1.34375) to (0.5, -0.1875, -1.28125) origin (0.5, -0.5, -1.3125) {
+    @part tags (south) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (west) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (east) texture "entities/log_raft" region (0.1875, 0.6875, 0.15625, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.1875, 0.84375, 0.15625, 0.8125)
+    @part tags (bottom) texture "entities/log_raft" region (0.1875, 0.78125, 0.15625, 0.8125)
+}
+@box from (-0.5, -0.5, -1.34375) to (-0.4375, -0.1875, -1.28125) origin (-0.4375, -0.5, -1.3125) {
+    @part tags (south) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (west) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (east) texture "entities/log_raft" region (0.1875, 0.6875, 0.15625, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.1875, 0.84375, 0.15625, 0.8125)
+    @part tags (bottom) texture "entities/log_raft" region (0.1875, 0.78125, 0.15625, 0.8125)
+}
+@box from (-0.5, -0.5, -0.96875) to (-0.4375, -0.1875, -0.90625) origin (-0.4375, -0.5, -0.9375) {
+    @part tags (south) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (west) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (east) texture "entities/log_raft" region (0.1875, 0.6875, 0.15625, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.1875, 0.84375, 0.15625, 0.8125)
+    @part tags (bottom) texture "entities/log_raft" region (0.1875, 0.78125, 0.15625, 0.8125)
+}
+@box from (-0.5, -0.5, -0.59375) to (-0.4375, -0.1875, -0.53125) origin (-0.4375, -0.5, -0.5625) {
+    @part tags (south) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (west) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (east) texture "entities/log_raft" region (0.1875, 0.6875, 0.15625, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.1875, 0.84375, 0.15625, 0.8125)
+    @part tags (bottom) texture "entities/log_raft" region (0.1875, 0.78125, 0.15625, 0.8125)
+}
+@box from (-0.5, -0.5, 0.15625) to (-0.4375, -0.1875, 0.21875) origin (-0.4375, -0.5, 0.1875) {
+    @part tags (south) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (west) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (east) texture "entities/log_raft" region (0.1875, 0.6875, 0.15625, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.1875, 0.84375, 0.15625, 0.8125)
+    @part tags (bottom) texture "entities/log_raft" region (0.1875, 0.78125, 0.15625, 0.8125)
+}
+@box from (-0.5, -0.5, -0.21875) to (-0.4375, -0.1875, -0.15625) origin (-0.4375, -0.5, -0.1875) {
+    @part tags (south) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (west) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.15625, 0.6875, 0.1875, 0.84375)
+    @part tags (east) texture "entities/log_raft" region (0.1875, 0.6875, 0.15625, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.1875, 0.84375, 0.15625, 0.8125)
+    @part tags (bottom) texture "entities/log_raft" region (0.1875, 0.78125, 0.15625, 0.8125)
+}
+@box from (-0.5, -0.1875, -1.28125) to (-0.4375, -0.125, 0.15625) origin (-0.4375, -0.1875, 0.125) {
+    @part tags (south) texture "entities/log_raft" region (0.96875, 0.96875, 1, 1)
+    @part tags (west) texture "entities/log_raft" region (0.1875, 0.8125, 0.90625, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.96875, 0.96875, 1, 1)
+    @part tags (east) texture "entities/log_raft" region (0.90625, 0.8125, 0.1875, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (1, 1, 0.96875, 0.28125)
+    @part tags (bottom) texture "entities/log_raft" region (1, 0.28125, 0.96875, 1)
+}
+@box from (-0.5, -0.5625, -1.28125) to (-0.4375, -0.5, 0.15625) origin (-0.4375, -0.5625, 0.125) {
+    @part tags (south) texture "entities/log_raft" region (0.96875, 0.96875, 1, 1)
+    @part tags (west) texture "entities/log_raft" region (0.1875, 0.8125, 0.90625, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.96875, 0.96875, 1, 1)
+    @part tags (east) texture "entities/log_raft" region (0.90625, 0.8125, 0.1875, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (1, 1, 0.96875, 0.28125)
+    @part tags (bottom) texture "entities/log_raft" region (1, 0.28125, 0.96875, 1)
+}
+@box from (0.4375, -0.1875, -1.28125) to (0.5, -0.125, 0.15625) origin (0.5, -0.1875, 0.125) {
+    @part tags (south) texture "entities/log_raft" region (0.96875, 0.96875, 1, 1)
+    @part tags (west) texture "entities/log_raft" region (0.1875, 0.8125, 0.90625, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.96875, 0.96875, 1, 1)
+    @part tags (east) texture "entities/log_raft" region (0.90625, 0.8125, 0.1875, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (1, 1, 0.96875, 0.28125)
+    @part tags (bottom) texture "entities/log_raft" region (1, 0.28125, 0.96875, 1)
+}
+@box from (0.4375, -0.5625, -1.28125) to (0.5, -0.5, 0.15625) origin (0.5, -0.5625, 0.125) {
+    @part tags (south) texture "entities/log_raft" region (0.96875, 0.96875, 1, 1)
+    @part tags (west) texture "entities/log_raft" region (0.1875, 0.8125, 0.90625, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0.96875, 0.96875, 1, 1)
+    @part tags (east) texture "entities/log_raft" region (0.90625, 0.8125, 0.1875, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (1, 1, 0.96875, 0.28125)
+    @part tags (bottom) texture "entities/log_raft" region (1, 0.28125, 0.96875, 1)
+}
+@box from (-0.875, -0.5, -0.53125) to (0.875, -0.1875, -0.21875) origin (-0.8125, -0.5, -0.4375) {
+    @part tags (south) texture "entities/log_raft" region (0, 0.84375, 0.875, 1)
+    @part tags (west) texture "entities/log_raft" region (0, 0.6875, 0.15625, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0, 0.84375, 0.875, 1)
+    @part tags (east) texture "entities/log_raft" region (0.15625, 0.6875, 0, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.875, 1, 0, 0.84375)
+    @part tags (bottom) texture "entities/log_raft" region (0.875, 0.84375, 0, 1)
+}
+@box from (-0.875, -0.5, -0.90625) to (0.875, -0.1875, -0.59375) origin (-0.8125, -0.5, -0.8125) {
+    @part tags (south) texture "entities/log_raft" region (0, 0.84375, 0.875, 1)
+    @part tags (west) texture "entities/log_raft" region (0, 0.6875, 0.15625, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0, 0.84375, 0.875, 1)
+    @part tags (east) texture "entities/log_raft" region (0.15625, 0.6875, 0, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.875, 1, 0, 0.84375)
+    @part tags (bottom) texture "entities/log_raft" region (0.875, 0.84375, 0, 1)
+}
+@box from (-0.875, -0.5, -1.28125) to (0.875, -0.1875, -0.96875) origin (-0.8125, -0.5, -1.1875) {
+    @part tags (south) texture "entities/log_raft" region (0, 0.84375, 0.875, 1)
+    @part tags (west) texture "entities/log_raft" region (0, 0.6875, 0.15625, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0, 0.84375, 0.875, 1)
+    @part tags (east) texture "entities/log_raft" region (0.15625, 0.6875, 0, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.875, 1, 0, 0.84375)
+    @part tags (bottom) texture "entities/log_raft" region (0.875, 0.84375, 0, 1)
+}
+@box from (-0.875, -0.5, -0.15625) to (0.875, -0.1875, 0.15625) origin (-0.8125, -0.5, -0.0625) {
+    @part tags (south) texture "entities/log_raft" region (0, 0.84375, 0.875, 1)
+    @part tags (west) texture "entities/log_raft" region (0, 0.6875, 0.15625, 0.84375)
+    @part tags (north) texture "entities/log_raft" region (0, 0.84375, 0.875, 1)
+    @part tags (east) texture "entities/log_raft" region (0.15625, 0.6875, 0, 0.84375)
+    @part tags (top) texture "entities/log_raft" region (0.875, 1, 0, 0.84375)
+    @part tags (bottom) texture "entities/log_raft" region (0.875, 0.84375, 0, 1)
+}
