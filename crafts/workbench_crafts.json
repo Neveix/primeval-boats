@@ -21,7 +21,7 @@
     "components": [
       {
         "id": "base:planks.item",
-        "count": 12
+        "count": 10
       },
       {
         "id": "newgen:tin_bronze_nugget",
@@ -29,7 +29,7 @@
       },
       {
         "id": "newgen:red_clay_chunk",
-        "count": 12
+        "count": 10
       }
     ],
     "results": [
@@ -43,7 +43,7 @@
     "components": [
       {
         "id": "newgen:birch_planks.item",
-        "count": 12
+        "count": 10
       },
       {
         "id": "newgen:tin_bronze_nugget",
@@ -51,7 +51,7 @@
       },
       {
         "id": "newgen:red_clay_chunk",
-        "count": 12
+        "count": 10
       }
     ],
     "results": [
@@ -65,7 +65,7 @@
     "components": [
       {
         "id": "newgen:spruce_planks.item",
-        "count": 12
+        "count": 10
       },
       {
         "id": "newgen:tin_bronze_nugget",
@@ -73,7 +73,7 @@
       },
       {
         "id": "newgen:red_clay_chunk",
-        "count": 12
+        "count": 10
       }
     ],
     "results": [
@@ -87,7 +87,7 @@
     "components": [
       {
         "id": "newgen:willow_planks.item",
-        "count": 12
+        "count": 10
       },
       {
         "id": "newgen:tin_bronze_nugget",
@@ -95,7 +95,7 @@
       },
       {
         "id": "newgen:red_clay_chunk",
-        "count": 12
+        "count": 10
       }
     ],
     "results": [
