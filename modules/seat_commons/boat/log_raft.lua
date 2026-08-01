@@ -7,5 +7,5 @@ return {
 	rotation_deceleration = 0.01,
 	turn_velocity_dependency = 0,
 	roll_lift = 0,
-	bottom_y_shift = -0.2,
+	bottom_y_shift = -0.07,
 }
