@@ -1,0 +1,56 @@
+@box from (-0.3125, -0.0625, -0.3125) to (0.3125, 0.0625, 0.3125) origin (0, -0.0625, 0) {
+    @part tags (south) texture "entities/kayak" region (0.0625, 0.78125, 0.21875, 0.8125)
+    @part tags (west) texture "entities/kayak" region (0.0625, 0.96875, 0.21875, 1)
+    @part tags (north) texture "entities/kayak" region (0.0625, 0.96875, 0.21875, 1)
+    @part tags (east) texture "entities/kayak" region (0.21875, 0.78125, 0.0625, 0.8125)
+    @part tags (top) texture "entities/kayak" region (0.8125, 0.96875, 0.65625, 0.8125)
+    @part tags (bottom) texture "entities/kayak" region (0.21875, 0.8125, 0.0625, 0.96875)
+}
+@box from (-0.3125, -0.0625, -0.4375) to (0.3125, 0.3125, -0.3125) origin (0, 0, -0.375) {
+    @part tags (south) texture "entities/kayak" region (0.046875, 0.6875, 0.203125, 0.78125)
+    @part tags (west) texture "entities/kayak" region (0.34375, 0.84375, 0.375, 0.9375)
+    @part tags (north) texture "entities/kayak" region (0.390625, 0.6875, 0.546875, 0.78125)
+    @part tags (east) texture "entities/kayak" region (0.375, 0.84375, 0.34375, 0.9375)
+    @part tags (top) texture "entities/kayak" region (0.546875, 1, 0.390625, 0.96875)
+    @part tags (bottom) texture "entities/kayak" region (0.203125, 0.78125, 0.046875, 0.8125)
+}
+@box from (-0.3125, -0.0625, 0.3125) to (0.3125, 0.3125, 0.4375) origin (0, 0, 0.375) {
+    @part tags (south) texture "entities/kayak" region (0.390625, 0.6875, 0.546875, 0.78125)
+    @part tags (west) texture "entities/kayak" region (0.34375, 0.84375, 0.375, 0.9375)
+    @part tags (north) texture "entities/kayak" region (0.046875, 0.6875, 0.203125, 0.78125)
+    @part tags (east) texture "entities/kayak" region (0.375, 0.84375, 0.34375, 0.9375)
+    @part tags (top) texture "entities/kayak" region (0.546875, 0.8125, 0.390625, 0.78125)
+    @part tags (bottom) texture "entities/kayak" region (0.203125, 0.96875, 0.046875, 1)
+}
+@box from (-0.5, -0.0625, -0.4375) to (-0.3125, 0.3125, 0.4375) origin (-0.375, 0, 0) {
+    @part tags (south) texture "entities/kayak" region (0.046875, 0.6875, 0.09375, 0.78125)
+    @part tags (west) texture "entities/kayak" region (0.359375, 0.6875, 0.578125, 0.78125)
+    @part tags (north) texture "entities/kayak" region (0, 0.6875, 0.046875, 0.78125)
+    @part tags (east) texture "entities/kayak" region (0.25, 0.6875, 0.03125, 0.78125)
+    @part tags (top) texture "entities/kayak" region (0.390625, 1, 0.34375, 0.78125)
+    @part tags (bottom) texture "entities/kayak" region (0.046875, 0.78125, 0, 1)
+}
+@box from (0.3125, -0.0625, -0.4375) to (0.5, 0.3125, 0.4375) origin (0.4375, 0, 0) {
+    @part tags (south) texture "entities/kayak" region (0.046875, 0.6875, 0.09375, 0.78125)
+    @part tags (west) texture "entities/kayak" region (0.03125, 0.6875, 0.25, 0.78125)
+    @part tags (north) texture "entities/kayak" region (0, 0.6875, 0.046875, 0.78125)
+    @part tags (east) texture "entities/kayak" region (0.578125, 0.6875, 0.359375, 0.78125)
+    @part tags (top) texture "entities/kayak" region (0.59375, 1, 0.546875, 0.78125)
+    @part tags (bottom) texture "entities/kayak" region (0.28125, 0.78125, 0.234375, 1)
+}
+@box from (0.5, 0.0625, -0.3125) to (1.25, 0.3125, 0.3125) origin (0.5625, 0.0625, -0.25) {
+    @part tags (south) texture "entities/kayak" region (0, 0.28125, 0.1875, 0.34375)
+    @part tags (west) texture "entities/kayak" region (0.34375, 0.28125, 0.1875, 0.34375)
+    @part tags (north) texture "entities/kayak" region (0, 0.28125, 0.1875, 0.34375)
+    @part tags (east) texture "entities/kayak" region (0.34375, 0.28125, 0.1875, 0.34375)
+    @part tags (top) texture "entities/kayak" region (0.1875, 0.5, 0, 0.34375)
+    @part tags (bottom) texture "entities/kayak" region (0.375, 0.34375, 0.1875, 0.5)
+}
+@box from (-1.25, 0.0625, -0.3125) to (-0.5, 0.3125, 0.3125) origin (-1.1875, 0.0625, -0.25) {
+    @part tags (south) texture "entities/kayak" region (0, 0.28125, 0.1875, 0.34375)
+    @part tags (west) texture "entities/kayak" region (0.34375, 0.28125, 0.1875, 0.34375)
+    @part tags (north) texture "entities/kayak" region (0, 0.28125, 0.1875, 0.34375)
+    @part tags (east) texture "entities/kayak" region (0.34375, 0.28125, 0.1875, 0.34375)
+    @part tags (top) texture "entities/kayak" region (0.1875, 0.5, 0, 0.34375)
+    @part tags (bottom) texture "entities/kayak" region (0.375, 0.34375, 0.1875, 0.5)
+}

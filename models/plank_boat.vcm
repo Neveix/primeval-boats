@@ -1,0 +1,40 @@
+@box from (-0.75, -0.1875, -0.4375) to (0.75, -0.0625, 0.4375) origin (-0.5625, -0.1875, 0) {
+    @part tags (south) texture "entities/plank_boat" region (0, 0.4375, 0.75, 0.5)
+    @part tags (west) texture "entities/plank_boat" region (0, 0.4375, 0.75, 0.5)
+    @part tags (north) texture "entities/plank_boat" region (0, 0.4375, 0.75, 0.5)
+    @part tags (east) texture "entities/plank_boat" region (0.4375, 0.4375, 0, 0.5)
+    @part tags (top) texture "entities/plank_boat" region (0.75, 0.96875, 0, 0.53125)
+    @part tags (bottom) texture "entities/plank_boat" region (0.75, 0.53125, 0, 0.96875)
+}
+@box from (-0.75, -0.1875, 0.4375) to (0.75, 0.1875, 0.5625) origin (-0.5625, -0.1875, 0.5) {
+    @part tags (south) texture "entities/plank_boat" region (0, 0.25, 0.75, 0.4375)
+    @part tags (west) texture "entities/plank_boat" region (0.6875, 0.25, 0.75, 0.4375)
+    @part tags (north) texture "entities/plank_boat" region (0, 0.25, 0.75, 0.4375)
+    @part tags (east) texture "entities/plank_boat" region (0.75, 0.25, 0.6875, 0.4375)
+    @part tags (top) texture "entities/plank_boat" region (0.75, 0.25, 0, 0.1875)
+    @part tags (bottom) texture "entities/plank_boat" region (0.75, 0.4375, 0, 0.5)
+}
+@box from (-0.75, -0.1875, -0.5625) to (0.75, 0.1875, -0.4375) origin (-0.5625, -0.1875, -0.5) {
+    @part tags (south) texture "entities/plank_boat" region (0, 0.25, 0.75, 0.4375)
+    @part tags (west) texture "entities/plank_boat" region (0.6875, 0.25, 0.75, 0.4375)
+    @part tags (north) texture "entities/plank_boat" region (0, 0.25, 0.75, 0.4375)
+    @part tags (east) texture "entities/plank_boat" region (0.75, 0.25, 0.6875, 0.4375)
+    @part tags (top) texture "entities/plank_boat" region (0.75, 0.1875, 0, 0.25)
+    @part tags (bottom) texture "entities/plank_boat" region (0.75, 0.5, 0, 0.4375)
+}
+@box from (0.75, -0.1875, -0.5625) to (0.875, 0.1875, 0.5625) origin (0.625, -0.1875, 0) {
+    @part tags (south) texture "entities/plank_boat" region (0.40625, 0, 0.46875, 0.1875)
+    @part tags (west) texture "entities/plank_boat" region (0, 0, 0.5625, 0.1875)
+    @part tags (north) texture "entities/plank_boat" region (0.40625, 0, 0.46875, 0.1875)
+    @part tags (east) texture "entities/plank_boat" region (0.5625, 0, 0, 0.1875)
+    @part tags (top) texture "entities/plank_boat" region (0.8125, 0.75, 0.75, 0.1875)
+    @part tags (bottom) texture "entities/plank_boat" region (0.875, 0.1875, 0.8125, 0.75)
+}
+@box from (-0.875, -0.1875, -0.5625) to (-0.75, 0.1875, 0.5625) origin (-1, -0.1875, 0) {
+    @part tags (south) texture "entities/plank_boat" region (0.40625, 0, 0.46875, 0.1875)
+    @part tags (west) texture "entities/plank_boat" region (0, 0, 0.5625, 0.1875)
+    @part tags (north) texture "entities/plank_boat" region (0.40625, 0, 0.46875, 0.1875)
+    @part tags (east) texture "entities/plank_boat" region (0.5625, 0, 0, 0.1875)
+    @part tags (top) texture "entities/plank_boat" region (0.75, 0.75, 0.8125, 0.1875)
+    @part tags (bottom) texture "entities/plank_boat" region (0.8125, 0.1875, 0.875, 0.75)
+}
