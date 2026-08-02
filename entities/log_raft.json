@@ -1,6 +1,6 @@
 {
   "components": [
-    "seat_commons:boat"
+    "intcom:boat"
   ],
   "body-type": "dynamic",
   "hitbox": [
