@@ -4,7 +4,7 @@
 
 **Primitive wooden boats with realistic physics.**
 
-A content pack for [VoxelCore](https://github.com/MihailRis/voxelcore) that adds wooden boats, rafts, and kayaks.
+A content pack for [VoxelCore](https://github.com/MihailRis/voxelcore).
 
 *Note: README was written with the assistance of AI.*
 
@@ -18,6 +18,8 @@ A content pack for [VoxelCore](https://github.com/MihailRis/voxelcore) that adds
 - **Water splashes** — visual feedback when moving or falling
 
 ## Installation
+
+- VoxelCore >=0.31.4
 
 - Ensure dependencies are installed:
    - [RideableAPI](https://github.com/Neveix/voxelcore-rideable-api)
@@ -57,7 +59,7 @@ This pack is built on [Interactive Commons](https://github.com/Neveix/voxelcore-
 ### What this pack shows
 
 - How to configure boat parameters (speed, acceleration, roll)
-- How to override default behavior via `modules/interact/boat/`
+- How to override default behavior via `modules/intcom/boat/`
 - How to add inventory support
 
 ### Create your own boats
@@ -65,3 +67,9 @@ This pack is built on [Interactive Commons](https://github.com/Neveix/voxelcore-
 You can easily add custom boats to your own pack. 
 
 Just use the documentation of [Interactive Commons](https://github.com/Neveix/voxelcore-interactive-commons)
+
+---
+
+## License
+
+MIT © [Neveix](https://github.com/Neveix)
