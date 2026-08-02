@@ -6,7 +6,7 @@
 
 A content pack for [VoxelCore](https://github.com/MihailRis/voxelcore) that adds wooden boats, rafts, and kayaks.
 
-*Note: Documentation was written with the assistance of AI.*
+*Note: README was written with the assistance of AI.*
 
 ## Features
 
