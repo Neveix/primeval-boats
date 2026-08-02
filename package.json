@@ -5,7 +5,7 @@
   "creator": "Neveix",
   "description": "",
   "dependencies": [
-    "seat_commons@>=1.0",
-    "~newgen@>=0.6"
+    "seat_commons",
+    "~newgen"
   ]
 }
