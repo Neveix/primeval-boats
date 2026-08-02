@@ -8,8 +8,8 @@ function on_use(pid)
 	if boat_utils.placement_mutex.try_lock() == false then
 		return
 	end
-	local success, pos = boat_utils.get_boat_placement_by_player(pid, entities.def_index(ENTITY_ID))
-	if not success then
+	local pos = boat_utils.get_boat_placement_by_player(pid, entities.def_index(ENTITY_ID))
+	if not pos then
 		return
 	end
 	boat_utils.try_delete_item(pid)
