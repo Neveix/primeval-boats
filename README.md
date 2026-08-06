@@ -47,7 +47,7 @@ Craft your boat and set sail!
 
 | Boat | Recipe |
 | :--- | :--- |
-| **Log Raft** | 4 Wood + 10 Flax Fiber |
+| **Log Raft** | 4 Wood + 20 Straw |
 | **Plank Boat** | 10 Planks + 2 Tin Bronze Nugget + 10 Red Clay Chunk |
 | **Kayak** | 20 Bone + 4 Fur |
 
